@@ -15,10 +15,10 @@
 		961DA46E1D257B6600E42CE7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 961DA46D1D257B6600E42CE7 /* Assets.xcassets */; };
 		961DA4711D257B6600E42CE7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 961DA46F1D257B6600E42CE7 /* LaunchScreen.storyboard */; };
 		968AC41A1D2AF4A80043FF1D /* DescriptionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 968AC4191D2AF4A80043FF1D /* DescriptionViewController.m */; };
+		968AC41E1D2BCAD90043FF1D /* StationsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 968AC41D1D2BCAD90043FF1D /* StationsViewController.m */; };
 		96B91CFD1D282EE700EF880C /* GeoInformation.m in Sources */ = {isa = PBXBuildFile; fileRef = 96B91CFC1D282EE700EF880C /* GeoInformation.m */; };
 		96B91D001D28334100EF880C /* Station.m in Sources */ = {isa = PBXBuildFile; fileRef = 96B91CFF1D28334100EF880C /* Station.m */; };
 		96B91D031D28352C00EF880C /* City.m in Sources */ = {isa = PBXBuildFile; fileRef = 96B91D021D28352C00EF880C /* City.m */; };
-		96B91D0B1D28418900EF880C /* StationsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 96B91D0A1D28418900EF880C /* StationsViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,14 +56,14 @@
 		968AC4181D2AF4A80043FF1D /* DescriptionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DescriptionViewController.h; sourceTree = "<group>"; };
 		968AC4191D2AF4A80043FF1D /* DescriptionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DescriptionViewController.m; sourceTree = "<group>"; };
 		968AC41B1D2B8FCE0043FF1D /* DataPickerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataPickerDelegate.h; sourceTree = "<group>"; };
+		968AC41C1D2BCAD90043FF1D /* StationsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StationsViewController.h; sourceTree = "<group>"; };
+		968AC41D1D2BCAD90043FF1D /* StationsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StationsViewController.m; sourceTree = "<group>"; };
 		96B91CFB1D282EE700EF880C /* GeoInformation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GeoInformation.h; sourceTree = "<group>"; };
 		96B91CFC1D282EE700EF880C /* GeoInformation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GeoInformation.m; sourceTree = "<group>"; };
 		96B91CFE1D28334100EF880C /* Station.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Station.h; sourceTree = "<group>"; };
 		96B91CFF1D28334100EF880C /* Station.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Station.m; sourceTree = "<group>"; };
 		96B91D011D28352C00EF880C /* City.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = City.h; sourceTree = "<group>"; };
 		96B91D021D28352C00EF880C /* City.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = City.m; sourceTree = "<group>"; };
-		96B91D091D28418900EF880C /* StationsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = StationsViewController.h; path = ../StationsViewController.h; sourceTree = "<group>"; };
-		96B91D0A1D28418900EF880C /* StationsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = StationsViewController.m; path = ../StationsViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,8 +137,8 @@
 		96B91D041D283ECE00EF880C /* viewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				96B91D091D28418900EF880C /* StationsViewController.h */,
-				96B91D0A1D28418900EF880C /* StationsViewController.m */,
+				968AC41C1D2BCAD90043FF1D /* StationsViewController.h */,
+				968AC41D1D2BCAD90043FF1D /* StationsViewController.m */,
 				968AC4181D2AF4A80043FF1D /* DescriptionViewController.h */,
 				968AC4191D2AF4A80043FF1D /* DescriptionViewController.m */,
 				961DA4641D257B6600E42CE7 /* ScheduleViewController.h */,
@@ -300,10 +300,10 @@
 				961DA4631D257B6600E42CE7 /* AppDelegate.m in Sources */,
 				96B91D001D28334100EF880C /* Station.m in Sources */,
 				961DA4661D257B6600E42CE7 /* ScheduleViewController.m in Sources */,
+				968AC41E1D2BCAD90043FF1D /* StationsViewController.m in Sources */,
 				96B91CFD1D282EE700EF880C /* GeoInformation.m in Sources */,
 				96B91D031D28352C00EF880C /* City.m in Sources */,
 				961DA4601D257B6600E42CE7 /* main.m in Sources */,
-				96B91D0B1D28418900EF880C /* StationsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
